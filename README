@@ -1,0 +1,37 @@
+Camix Java v0.3.3
+
+Programme à usage pédagogique.
+
+Copyright (c)(2022) Matthias BRUN (matthias.brun@eseo.fr)
+
+
+-----------
+Description
+-----------
+
+Camix : Logiciel serveur chat.
+Programme non utilisable en production, réservé à un usage pédagogique.
+
+- configuration dans le répertoire src/main/resources/ ;
+- communication avec le composant Felix (BufferedReader et BufferedWriter) ;
+- aucun test unitaire.
+
+
+-------------
+Projet Gradle
+-------------
+
+cf. build.gradle
+
+Encodage : UTF-8
+
+
+----------
+Dépendance
+----------
+
+Recommandée à l'usage :
+-----------------------
+
+Felix >= v0.3.2
+

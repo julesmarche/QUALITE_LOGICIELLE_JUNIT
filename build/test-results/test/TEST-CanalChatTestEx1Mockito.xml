@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CanalChatTestEx1Mockito" tests="7" skipped="0" failures="0" errors="0" timestamp="2023-03-21T10:37:57" hostname="ORDINATEURJULES" time="1.993">
+  <properties/>
+  <testcase name="ajouteClientDejaPresentTestVersion2()" classname="CanalChatTestEx1Mockito" time="1.858"/>
+  <testcase name="ajouteClientTest()" classname="CanalChatTestEx1Mockito" time="0.036"/>
+  <testcase name="ajouteClientTestVersion2()" classname="CanalChatTestEx1Mockito" time="0.004"/>
+  <testcase name="ajouteClientTestVersion3()" classname="CanalChatTestEx1Mockito" time="0.064"/>
+  <testcase name="ajouteClientTestDejaPresentVersion3()" classname="CanalChatTestEx1Mockito" time="0.006"/>
+  <testcase name="ajouteClientDejaPresentTest()" classname="CanalChatTestEx1Mockito" time="0.004"/>
+  <testcase name="ajouteClientTestVersion2_1()" classname="CanalChatTestEx1Mockito" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
