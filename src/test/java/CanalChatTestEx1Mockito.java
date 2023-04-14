@@ -75,6 +75,8 @@ public class CanalChatTestEx1Mockito {
 
         assertEquals(clients.size(), 1);
         assertTrue(clients.contains(clientChatMock));
+
+        Mockito.verify(this.clientChat, Mockito.times(2)).donneId();
     }
 
     @Test
@@ -94,6 +96,8 @@ public class CanalChatTestEx1Mockito {
 
         assertEquals(clients.size(), 1);
         assertTrue(clients.contains(clientChatMock));
+
+        Mockito.verify(this.clientChat, Mockito.times(2)).donneId();
     }
 
     @Test
@@ -117,6 +121,8 @@ public class CanalChatTestEx1Mockito {
 
         assertEquals(clients.size(), 1);
         assertTrue(clients.contains(clientChatMock));
+
+        Mockito.verify(this.clientChat, Mockito.times(2)).donneId();
     }
 
     @Test
