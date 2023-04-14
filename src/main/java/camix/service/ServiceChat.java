@@ -40,7 +40,7 @@ public final class ServiceChat
 	 * 
 	 * @throws IOException exception d'entrée/sortie.
 	 */
-	public ServiceChat(String canal, Integer port) throws IOException
+	public ServiceChat(String canal) throws IOException
 	{
 		// Création de l'ensemble des canaux.
 		this.canaux = new Hashtable<>();
@@ -48,8 +48,7 @@ public final class ServiceChat
 		// Création du canal par défaut.
 		this.canalDefaut = new CanalChat(canal);
 		this.canaux.put(this.canalDefaut.donneNom(), this.canalDefaut);
-		
-		this.lanceService(port);
+
 	}
 
 	/**
@@ -59,7 +58,7 @@ public final class ServiceChat
 	 * 
 	 * @throws IOException exception d'entrée/sortie.
 	 */
-	private void lanceService(Integer port) throws IOException
+	public void lanceService(Integer port) throws IOException
 	{		
 		// Ouverture de la connexion serveur.
 		try {

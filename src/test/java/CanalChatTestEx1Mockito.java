@@ -15,6 +15,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class CanalChatTestEx1Mockito {
 
     private ClientChat clientChatMock;
+
     private CanalChat canalChat = new CanalChat("Canal_de_test");
     @BeforeEach
     public void setUp() throws Exception {
@@ -76,7 +77,7 @@ public class CanalChatTestEx1Mockito {
         assertEquals(clients.size(), 1);
         assertTrue(clients.contains(clientChatMock));
 
-        Mockito.verify(this.clientChat, Mockito.times(2)).donneId();
+        Mockito.verify(this.clientChatMock, Mockito.times(2)).donneId();
     }
 
     @Test
@@ -97,7 +98,7 @@ public class CanalChatTestEx1Mockito {
         assertEquals(clients.size(), 1);
         assertTrue(clients.contains(clientChatMock));
 
-        Mockito.verify(this.clientChat, Mockito.times(2)).donneId();
+        Mockito.verify(this.clientChatMock, Mockito.times(3)).donneId();
     }
 
     @Test
@@ -122,7 +123,7 @@ public class CanalChatTestEx1Mockito {
         assertEquals(clients.size(), 1);
         assertTrue(clients.contains(clientChatMock));
 
-        Mockito.verify(this.clientChat, Mockito.times(2)).donneId();
+        Mockito.verify(this.clientChatMock, Mockito.times(1)).donneId();
     }
 
     @Test
